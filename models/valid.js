@@ -1,11 +1,12 @@
 const Mongoose = require("mongoose");
 
 const acc_info=Mongoose.Schema({
-    uname:{
+    pwd:{
         type:String,
         required:true
     },
-    pwd:{
+
+    email:{
         type:String,
         required:true
     }
